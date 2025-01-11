@@ -17,7 +17,7 @@ const Home = () => {
       <Row className="align-items-center">
         {/* Row to center-align the content */}
 
-        <Col md={6}>
+        <Col xs={12} md={6} className="text-center text-md-start">
           {/* Left Column for text and buttons */}
           <h1 className="display-4 font-weight-bold mb-4" data-aos="zoom-in">
             Taiwo Akinpennu
@@ -27,30 +27,29 @@ const Home = () => {
             organizations, and communities. My focus is on using my expertise to solve problems and drive success through technology.
           </p>
           <div data-aos="zoom-in">
-
-          
-   <Link to="/project"><Button variant="success" size="lg" className="ms-3">My Project</Button></Link> 
-    
-   <Link to="/about"><Button variant="dark" size="lg" className="ms-3 "  >About Me</Button></Link>
-            
-          
+            {/* Buttons for navigating to projects and about sections */}
+            <Link to="/project">
+              <Button variant="success" size="lg" className="ms-3 mb-3 mb-md-0">
+                My Project
+              </Button>
+            </Link>
+            <Link to="/about">
+              <Button variant="dark" size="lg" className="ms-3">
+                About Me
+              </Button>
+            </Link>
           </div>
-          
-
-          
-          <img
-            src="\images\Photo.jpg"
-            alt="Taiwo Akinpennu"
-            
-            className="rounded-circle shadow-lg mt-4"
-            data-aos="zoom-in" // Apply zoom-in effect to the image
-          />
-          {/* mt-4 adds top margin to create space above the image */}
         </Col>
 
-        <Col md={6}>
-          {/* Right Column for empty space or additional content */}
-          {/* You can leave this column empty or add more content if needed */}
+        <Col xs={12} md={6} className="d-flex justify-content-center">
+          {/* Right Column for Image */}
+          <img
+            src="/images/Photo.jpg"
+            alt="Taiwo Akinpennu"
+            className="rounded-circle shadow-lg mt-4 img-fluid" // img-fluid ensures the image is responsive
+            data-aos="zoom-in" // Apply zoom-in effect to the image
+            style={{ maxWidth: "300px" }} // Ensures image does not get too large on large screens
+          />
         </Col>
       </Row>
     </Container>
