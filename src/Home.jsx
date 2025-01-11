@@ -38,10 +38,10 @@ const Home = () => {
           
 
           
-          <Image
+          <img
             src="src\\asset\\images\\Photo.jpg"
             alt="Taiwo Akinpennu"
-            fluid
+            
             className="rounded-circle shadow-lg mt-4"
             data-aos="zoom-in" // Apply zoom-in effect to the image
           />

@@ -32,10 +32,10 @@ const About = () => {
             {/* Row to arrange Image and text side by side */}
 
             <Col xs={12} md={6} data-aos="zoom-in">
-              <Image
+              <img
                 src="src/asset/images/Photo.jpg" // Adjust image path
                 alt="Taiwo Akinpennu"
-                fluid
+                
                 className="rounded-circle shadow-lg"
                 style={{ width: "250px", height: "250px" }}
               />

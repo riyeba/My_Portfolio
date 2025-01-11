@@ -362,7 +362,7 @@ function Project() {
           >
             {/* Image and Title in the Same Container */}
             <img
-              src="src/asset/images/abiotech.png"
+              src="\images\abiotech.png"
               alt="project"
               className="img-fluid rounded"
               style={{
@@ -456,4 +456,5 @@ function Project() {
 }
 
 export default Project;
+
 
