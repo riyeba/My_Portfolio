@@ -39,7 +39,7 @@ const Home = () => {
 
           
           <img
-            src="src\\asset\\images\\Photo.jpg"
+            src="\images\Photo.jpg"
             alt="Taiwo Akinpennu"
             
             className="rounded-circle shadow-lg mt-4"

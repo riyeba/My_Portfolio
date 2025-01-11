@@ -33,7 +33,7 @@ const About = () => {
 
             <Col xs={12} md={6} data-aos="zoom-in">
               <img
-                src="src/asset/images/Photo.jpg" // Adjust image path
+                src="\images\Photo.jpg" // Adjust image path
                 alt="Taiwo Akinpennu"
                 
                 className="rounded-circle shadow-lg"

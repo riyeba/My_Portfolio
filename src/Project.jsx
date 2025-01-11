@@ -252,7 +252,7 @@ function Project() {
           >
             {/* Image and Title in the Same Container */}
             <img
-              src="src/asset/images/weathertwo.png"
+              src="\images\weathertwo.png"
               alt="project"
               className="img-fluid rounded"
               style={{
