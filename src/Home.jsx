@@ -29,12 +29,20 @@ const Home = () => {
           <div data-aos="zoom-in">
             {/* Buttons for navigating to projects and about sections */}
             <Link to="/project">
-              <Button variant="success" size="lg" className="ms-3 mb-3 mb-md-0">
+              <Button
+                variant="success"
+                size="lg"
+                className="ms-3 mb-3 mb-md-0 w-100 w-md-auto"
+              >
                 My Project
               </Button>
             </Link>
             <Link to="/about">
-              <Button variant="dark" size="lg" className="ms-3">
+              <Button
+                variant="dark"
+                size="lg"
+                className="ms-3 w-100 w-md-auto"
+              >
                 About Me
               </Button>
             </Link>
