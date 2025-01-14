@@ -77,18 +77,18 @@ const About = () => {
                     ReactJs
                   </Button>
                 </Col>
-                <Col xs={6} sm={4} md={3} data-aos="zoom-in">
-                  <Button variant="outline-warning" className="w-100">
+                <Col xs={6} sm={4} md={3} data-aos="zoom-in" >
+                  <Button variant="outline-warning" className="w-100 mb-2">
                     Django
                   </Button>
                 </Col>
                 <Col xs={6} sm={4} md={3} data-aos="zoom-in">
-                  <Button variant="outline-success" className="w-100">
+                  <Button variant="outline-success" className="w-100 mb-2">
                     HTML
                   </Button>
                 </Col>
                 <Col xs={6} sm={4} md={3} data-aos="zoom-in">
-                  <Button variant="outline-danger" className="w-100">
+                  <Button variant="outline-danger" className="w-100 mb-2 ">
                     CSS
                   </Button>
                 </Col>
@@ -98,7 +98,7 @@ const About = () => {
                   </Button>
                 </Col>
                 <Col xs={6} sm={4} md={3} data-aos="zoom-in">
-                  <Button variant="outline-dark" className="w-100">
+                  <Button variant="outline-dark" className="w-100 ">
                     Bootstrap
                   </Button>
                 </Col>

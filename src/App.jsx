@@ -6,7 +6,9 @@ import Footer from "./Footer";
 import AboutMe from "./AboutMe";
 import Project from "./Project";
 import Contact from "./Contact";
-import ScrollTop from "./ScrollTop";
+
+import ScrollT from "./Scrooler";
+
 
 
 
@@ -23,8 +25,9 @@ function MainContent() {
   return (
     <div className="min-vh-100 ">
       <>
-      <ScrollTop/>
+      <ScrollT/>
         <NavBar />
+        
         <Routes >
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutMe />} />
