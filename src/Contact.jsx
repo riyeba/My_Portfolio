@@ -57,7 +57,7 @@ function Contact() {
 
               {/* WhatsApp */}
               <a
-                href="https://wa.me/+9665492868497" // Replace with your WhatsApp number
+                href="https://wa.me/+966549286849" // Replace with your WhatsApp number
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social-icon text-decoration-none d-flex align-items-center"
