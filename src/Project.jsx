@@ -46,111 +46,128 @@ function Project() {
       <Row className="justify-content-center g-4">
         {/* First Project */}
         <Col xs={12} md={6} lg={5} className="d-flex flex-column align-items-stretch" data-aos="zoom-in">
-          <div
-            className="project-container"
-            style={{
-              boxShadow: "0px 10px 30px rgba(0, 0, 0, 0.2)", 
-              borderRadius: "10px", 
-              display: "flex",
-              flexDirection: "column",
-              height: "100%", 
-              overflow: "hidden", 
-            }}
-          >
-           
-            <img
-              src="\images\image.png"
-              alt="project"
-              className="img-fluid rounded"
-              style={{
-                width: "100%",
-                height: "auto",
-                display: "block", 
-                borderBottom: "5px solid #ccc", 
-                boxShadow: "0px 10px 30px rgba(0, 0, 0, 0.2)", 
-                marginBottom: "0", 
-              }}
-            />
-            <div
-              style={{
-                padding: "20px",
-                backgroundColor: "#fff",
-                flex: "1", 
-              }}
-            >
-              <h2 style={{ textShadow: "1px 1px 3px rgba(0, 0, 0, 0.1)", marginTop: "0" }}>
-                NSU-KSU
-              </h2>
-              <p style={{ textShadow: "1px 1px 3px rgba(0, 0, 0, 0.1)" }}>
-              I developed a website for Nigerian students and alumni of King Saud University in Riyadh,
-               Saudi Arabia, utilizing <strong>ReactJS</strong> for the frontend and <strong>Django</strong> for the backend. The landing 
-               pages are dynamically fetched from the backend. The platform allows students and alumni to manage
-                their profiles and connect with each other. Additionally, it features email notifications,
-                 enabling users to update their profiles, change their passwords, recover forgotten passwords, 
-                 and delete their accounts.
-              </p>
-              <div>
-                <h3 style={{ fontWeight: "bold" }}>TOOLS:</h3>
-                <div
-                  style={{
-                    color: "black",
-                    display: "flex",
-                    gap: "5px",
-                    fontWeight: "bold",
-                    textShadow: "1px 1px 3px rgba(0, 0, 0, 0.1)",
-                  }}
-                >
-                  <p>ReactJS</p>
-                  <p>Django</p>
-                </div>
-              </div>
+  <div
+    className="project-container"
+    style={{
+      boxShadow: "0px 10px 30px rgba(0, 0, 0, 0.2)", 
+      borderRadius: "10px", 
+      display: "flex",
+      flexDirection: "column",
+      height: "100%", 
+      overflow: "hidden", 
+    }}
+  >
+    <img
+      src="\images\image.png"
+      alt="project"
+      className="img-fluid rounded"
+      style={{
+        width: "100%",
+        height: "auto",
+        display: "block", 
+        borderBottom: "5px solid #ccc", 
+        boxShadow: "0px 10px 30px rgba(0, 0, 0, 0.2)", 
+        marginBottom: "0", 
+      }}
+    />
+    <div
+      style={{
+        padding: "20px",
+        backgroundColor: "#fff",
+        flex: "1", 
+      }}
+    >
+      <h2 style={{ textShadow: "1px 1px 3px rgba(0, 0, 0, 0.1)", marginTop: "0" }}>
+        NSU-KSU
+      </h2>
+      <p style={{ textShadow: "1px 1px 3px rgba(0, 0, 0, 0.1)" }}>
+        I developed a website for Nigerian students and alumni of King Saud University in Riyadh,
+        Saudi Arabia, utilizing <strong>ReactJS</strong> for the frontend and <strong>Django</strong> for the backend. The landing 
+        pages are dynamically fetched from the backend. The platform allows students and alumni to manage
+        their profiles and connect with each other. Additionally, it features email notifications,
+        enabling users to update their profiles, change their passwords, recover forgotten passwords, 
+        and delete their accounts.
+      </p>
+      <div>
+        <h3 style={{ fontWeight: "bold" }}>TOOLS:</h3>
+        <div
+          style={{
+            color: "black",
+            display: "flex",
+            gap: "5px",
+            fontWeight: "bold",
+            textShadow: "1px 1px 3px rgba(0, 0, 0, 0.1)",
+          }}
+        >
+          <p>ReactJS,</p>
+          <p>Django</p>
+        </div>
+      </div>
 
-              {/* Button Container */}
-              <div
-                style={{
-                  display: "flex",
-                  gap: "1rem",
-                  justifyContent: "center",
-                  marginTop: "20px",
-                }}
-              >
-                {/* Live Button */}
-                <a
-                  className="w-100 bg-success text-center d-flex justify-content-center align-items-center"
-                  style={{
-                    fontWeight: "bold",
-                    color: "white",
-                    textDecoration: "none",
-                    padding: "10px",
-                    boxShadow: "0 4px 10px rgba(0, 0, 0, 0.1)", 
-                  }}
-                  href="https://frontendksunsudemo.vercel.app"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Live <i className="bi bi-globe" style={{ marginLeft: "7px" }}></i>
-                </a>
+      {/* Button Container */}
+      <div
+        style={{
+          display: "flex",
+          gap: "1rem",
+          justifyContent: "center",
+          marginTop: "20px",
+        }}
+      >
+        {/* Live Button */}
+        <a
+          className="w-100 bg-success text-center d-flex justify-content-center align-items-center"
+          style={{
+            fontWeight: "bold",
+            color: "white",
+            textDecoration: "none",
+            padding: "10px",
+            boxShadow: "0 4px 10px rgba(0, 0, 0, 0.1)", 
+          }}
+          href="https://frontendksunsudemo.vercel.app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Live <i className="bi bi-globe" style={{ marginLeft: "7px" }}></i>
+        </a>
 
-            
-                <a
-                  className="w-100 bg-dark text-center d-flex justify-content-center align-items-center"
-                  style={{
-                    fontWeight: "bold",
-                    color: "white",
-                    textDecoration: "none",
-                    padding: "10px",
-                    boxShadow: "0 4px 10px rgba(0, 0, 0, 0.1)", 
-                  }}
-                  href="https://github.com/riyeba/frontendksunsudemo.git"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Git <i className="bi bi-github" style={{ marginLeft: "7px" }}></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </Col>
+        {/* Frontend GitHub Button */}
+        <a
+          className="w-100 bg-dark text-center d-flex justify-content-center align-items-center"
+          style={{
+            fontWeight: "bold",
+            color: "white",
+            textDecoration: "none",
+            padding: "10px",
+            boxShadow: "0 4px 10px rgba(0, 0, 0, 0.1)", 
+          }}
+          href="https://github.com/riyeba/frontendksunsudemo.git"  
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Frontend Git <i className="bi bi-github" style={{ marginLeft: "7px" }}></i>
+        </a>
+
+        
+        <a
+          className="w-100 bg-dark text-center d-flex justify-content-center align-items-center"
+          style={{
+            fontWeight: "bold",
+            color: "white",
+            textDecoration: "none",
+            padding: "10px",
+            boxShadow: "0 4px 10px rgba(0, 0, 0, 0.1)", 
+          }}
+          href="https://github.com/riyeba/ksunsudemo.git"  
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Backend Git <i className="bi bi-github" style={{ marginLeft: "7px" }}></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</Col>
+
         <Col xs={12} md={6} lg={5} className="d-flex flex-column align-items-stretch" data-aos="zoom-in">
           <div
             className="project-container"
@@ -207,8 +224,8 @@ function Project() {
                     textShadow: "1px 1px 3px rgba(0, 0, 0, 0.1)",
                   }}
                 >
-                  <p>HTML</p>
-                  <p>CSS</p>
+                  <p>HTML,</p>
+                  <p>CSS,</p>
                   <p>JAVASCRIPT</p>
                 </div>
               </div>
@@ -311,8 +328,8 @@ function Project() {
                     textShadow: "1px 1px 3px rgba(0, 0, 0, 0.1)",
                   }}
                 >
-                  <p>HTML</p>
-                  <p>CSS</p>
+                  <p>HTML,</p>
+                  <p>CSS,</p>
                   <p>JAVASCRIPT</p>
                 </div>
               </div>
