@@ -21,11 +21,11 @@ function App() {
 
 function MainContent() {
   return (
-    <div>
+    <div className="min-vh-100 ">
       <>
       <ScrollTop/>
         <NavBar />
-        <Routes className="min-vh-100 ">
+        <Routes >
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutMe />} />
           <Route path="/project" element={<Project/>} />
