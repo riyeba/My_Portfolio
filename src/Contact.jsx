@@ -21,7 +21,7 @@ function Contact() {
             <div className="d-flex flex-wrap justify-content-center gap-4 mt-3">
               {/* LinkedIn */}
               <a
-                href="https://www.linkedin.com/in/your-profile" // Replace with your LinkedIn URL
+                href="https://www.linkedin.com/in/taiwo-akinpennu-115705195?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" // Replace with your LinkedIn URL
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social-icon text-decoration-none d-flex align-items-center"
@@ -33,7 +33,7 @@ function Contact() {
 
               {/* GitHub */}
               <a
-                href="https://github.com/your-profile" // Replace with your GitHub URL
+                href="https://github.com/riyeba" // Replace with your GitHub URL
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social-icon text-decoration-none d-flex align-items-center"
@@ -43,8 +43,8 @@ function Contact() {
                 <span className="ms-2">GitHub</span> {/* Text is now always visible */}
               </a>
 
-              {/* Twitter */}
-              <a
+             
+              {/* <a
                 href="https://twitter.com/your-profile" // Replace with your Twitter URL
                 target="_blank"
                 rel="noopener noreferrer"
@@ -52,12 +52,12 @@ function Contact() {
                 data-aos="zoom-in"
               >
                 <i className="bi bi-twitter" style={{ fontSize: '2rem', color: '#1da1f2' }}></i>
-                <span className="ms-2">Twitter</span> {/* Text is now always visible */}
-              </a>
+                <span className="ms-2">Twitter</span> 
+              </a> */}
 
               {/* WhatsApp */}
               <a
-                href="https://wa.me/+2347060912057" // Replace with your WhatsApp number
+                href="https://wa.me/+9665492868497" // Replace with your WhatsApp number
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social-icon text-decoration-none d-flex align-items-center"

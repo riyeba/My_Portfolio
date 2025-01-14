@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
-const ScrollTop = () => {
+const ScrollT = () => {
   const location = useLocation(); // This will track route changes
 
   useEffect(() => {
@@ -11,4 +11,4 @@ const ScrollTop = () => {
   return null; // This component doesn't render anything
 };
 
-export default ScrollTop;
+export default ScrollT;
