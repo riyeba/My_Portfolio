@@ -83,7 +83,7 @@ function Project() {
               </h2>
               <p style={{ textShadow: "1px 1px 3px rgba(0, 0, 0, 0.1)" }}>
               I developed a website for Nigerian students and alumni of King Saud University in Riyadh,
-               Saudi Arabia (NSU-KSU), utilizing <strong>ReactJS</strong> for the frontend and <strong>Django</strong> for the backend. The landing 
+               Saudi Arabia, utilizing <strong>ReactJS</strong> for the frontend and <strong>Django</strong> for the backend. The landing 
                pages are dynamically fetched from the backend. The platform allows students and alumni to manage
                 their profiles and connect with each other. Additionally, it features email notifications,
                  enabling users to update their profiles, change their passwords, recover forgotten passwords, 
