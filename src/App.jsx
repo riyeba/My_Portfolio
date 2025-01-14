@@ -6,6 +6,7 @@ import Footer from "./Footer";
 import AboutMe from "./AboutMe";
 import Project from "./Project";
 import Contact from "./Contact";
+import ScrollTop from "./ScrollTop";
 
 
 
@@ -22,6 +23,7 @@ function MainContent() {
   return (
     <div>
       <>
+      <ScrollTop/>
         <NavBar />
         <Routes className="min-vh-100 ">
           <Route path="/" element={<Home />} />
