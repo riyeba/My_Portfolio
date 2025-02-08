@@ -279,7 +279,7 @@ function Project() {
 
         {/* Intern Project */}
 
-        <div
+        {/* <div
               style={{
                 padding: "20px",
                 backgroundColor: "#fff",
@@ -352,9 +352,110 @@ function Project() {
                   Git <i className="bi bi-github" style={{ marginLeft: "7px" }}></i>
                 </a>
               </div>
+            </div> */}
+
+            <Col xs={12} md={6} lg={5} className="d-flex flex-column align-items-stretch" data-aos="zoom-in">
+          <div
+            className="project-container"
+            style={{
+              boxShadow: "0px 10px 30px rgba(0, 0, 0, 0.2)", 
+              borderRadius: "10px", 
+              display: "flex",
+              flexDirection: "column",
+              height: "100%", 
+              overflow: "hidden", 
+            }}
+          >
+           
+            <img
+              src="\images\billgate.PNG"
+              alt="project"
+              className="img-fluid rounded"
+              style={{
+                width: "100%",
+                height: "auto",
+                display: "block", 
+                borderBottom: "5px solid #ccc", 
+                boxShadow: "0px 10px 30px rgba(0, 0, 0, 0.2)", 
+                marginBottom: "0", 
+              }}
+            />
+            <div
+              style={{
+                padding: "20px",
+                backgroundColor: "#fff",
+                flex: "1", 
+              }}
+            >
+              <h2 style={{ textShadow: "1px 1px 3px rgba(0, 0, 0, 0.1)", marginTop: "0" }}>
+              INTERNSHIP PROJECT
+              </h2>
+              <p style={{ textShadow: "1px 1px 3px rgba(0, 0, 0, 0.1)" }}>
+              I remade a static website for Bill Gates School, located in India, as my first test project during my internship.
+              </p>
+              <div>
+                <h3 style={{ fontWeight: "bold" }}>TOOLS:</h3>
+                <div
+                  style={{
+                    color: "black",
+                    display: "flex",
+                    gap: "5px",
+                    fontWeight: "bold",
+                    textShadow: "1px 1px 3px rgba(0, 0, 0, 0.1)",
+                  }}
+                >
+                  <p>HTML,</p>
+                  <p>CSS,</p>
+                  <p>JAVASCRIPT</p>
+                </div>
+              </div>
+
+              {/* Button Container */}
+              <div
+                style={{
+                  display: "flex",
+                  gap: "1rem",
+                  justifyContent: "center",
+                  marginTop: "20px",
+                }}
+              >
+                {/* Live Button */}
+                <a
+                  className="w-100 bg-success text-center d-flex justify-content-center align-items-center"
+                  style={{
+                    fontWeight: "bold",
+                    color: "white",
+                    textDecoration: "none",
+                    padding: "10px",
+                    boxShadow: "0 4px 10px rgba(0, 0, 0, 0.1)", 
+                  }}
+                  href="https://internschool-75fp.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Live <i className="bi bi-globe" style={{ marginLeft: "7px" }}></i>
+                </a>
+
+            
+                <a
+                  className="w-100 bg-dark text-center d-flex justify-content-center align-items-center"
+                  style={{
+                    fontWeight: "bold",
+                    color: "white",
+                    textDecoration: "none",
+                    padding: "10px",
+                    boxShadow: "0 4px 10px rgba(0, 0, 0, 0.1)", 
+                  }}
+                  href="https://github.com/riyeba/Internschool.git"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Git <i className="bi bi-github" style={{ marginLeft: "7px" }}></i>
+                </a>
+              </div>
             </div>
-
-
+          </div>
+        </Col>
 
 
 
