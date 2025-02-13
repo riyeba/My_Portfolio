@@ -251,8 +251,7 @@ function Project() {
                     boxShadow: "0 4px 10px rgba(0, 0, 0, 0.1)", 
                   }}
                   to="https://weather-app-rgni.vercel.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                
                 >
                   <Button className="text-decoration-none bg-transparent border-0">Live <i className="bi bi-globe" style={{ marginLeft: "7px" }}></i></Button>
                 </Link>
@@ -268,8 +267,7 @@ function Project() {
                     boxShadow: "0 4px 10px rgba(0, 0, 0, 0.1)", 
                   }}
                   to="https://github.com/riyeba/weather_app.git"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                
                 >
                  <Button className="text-decoration-none bg-transparent border-0">Git <i className="bi bi-github" style={{ marginLeft: "7px" }}></i></Button> 
                 </Link>
@@ -355,8 +353,7 @@ function Project() {
                     boxShadow: "0 4px 10px rgba(0, 0, 0, 0.1)", // Shadow for Live button
                   }}
                   to="https://abiotech-l5dd.vercel.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                
                 >
                   <Button className="text-decoration-none bg-transparent border-0">Live <i className="bi bi-globe" style={{ marginLeft: "7px" }}></i></Button>
                 </Link>
@@ -372,8 +369,7 @@ function Project() {
                     boxShadow: "0 4px 10px rgba(0, 0, 0, 0.1)", // Shadow for Git button
                   }}
                   to="https://github.com/riyeba/ABIOTECH.git"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                
                 >
                   <Button className="text-decoration-none bg-transparent border-0">Git <i className="bi bi-github" style={{ marginLeft: "7px" }}></i></Button>
                 </Link>
@@ -458,8 +454,7 @@ function Project() {
                     boxShadow: "0 4px 10px rgba(0, 0, 0, 0.1)", 
                   }}
                   to="https://internschool-75fp.vercel.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                
                 >
                  <Button className="text-decoration-none bg-transparent border-0">Live <i className="bi bi-globe" style={{ marginLeft: "7px" }}></i></Button> 
                 </Link>
@@ -475,8 +470,7 @@ function Project() {
                     boxShadow: "0 4px 10px rgba(0, 0, 0, 0.1)", 
                   }}
                   to="https://github.com/riyeba/Internschool.git"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                
                 >
                  <Button className="text-decoration-none bg-transparent border-0">Git <i className="bi bi-github" style={{ marginLeft: "7px" }}></i></Button> 
                 </Link>
