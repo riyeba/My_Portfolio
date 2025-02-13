@@ -127,7 +127,7 @@ function Project() {
                 }}
               >
                 {/* Live Button */}
-                <a
+                <Link
                   className="w-100 bg-success text-center d-flex justify-content-center align-items-center"
                   style={{
                     fontWeight: "bold",
@@ -136,13 +136,13 @@ function Project() {
                     padding: "10px",
                     boxShadow: "0 4px 10px rgba(0, 0, 0, 0.1)",
                   }}
-                  href="https://frontendksunsudemo.vercel.app"
+                  to="https://frontendksunsudemo.vercel.app"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   Live{" "}
                   <i className="bi bi-globe" style={{ marginLeft: "7px" }}></i>
-                </a>
+                </Link>
 
                 {/* Frontend GitHub Button */}
                 <a
