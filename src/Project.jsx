@@ -125,8 +125,7 @@ function Project() {
             boxShadow: "0 4px 10px rgba(0, 0, 0, 0.1)", 
           }}
           to="https://frontendksunsudemo.vercel.app"
-          target="_blank"
-          rel="noopener noreferrer"
+          
         >
           <Button className="text-decoration-none bg-transparent border-0">Live <i className="bi bi-globe" style={{ marginLeft: "7px" }}></i></Button>
         </Link>
@@ -142,8 +141,8 @@ function Project() {
             boxShadow: "0 4px 10px rgba(0, 0, 0, 0.1)", 
           }}
           to="https://github.com/riyeba/frontendksunsudemo.git"  
-          target="_blank"
-          rel="noopener noreferrer"
+         
+          
         >
          <Button className="text-decoration-none bg-transparent border-0">Frontend Git <i className="bi bi-github" style={{ marginLeft: "7px" }}></i></Button>  
         </Link>
@@ -159,8 +158,8 @@ function Project() {
             boxShadow: "0 4px 10px rgba(0, 0, 0, 0.1)", 
           }}
           to="https://github.com/riyeba/ksunsudemo.git"  
-          target="_blank"
-          rel="noopener noreferrer"
+         
+          
         >
          <Button className="text-decoration-none bg-transparent border-0">Backend Git <i className="bi bi-github" style={{ marginLeft: "7px" }}></i></Button> 
         </Link>
