@@ -3,7 +3,7 @@
 import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css"; // Import AOS styles
-import { Row, Col } from "react-bootstrap";
+import { Row, Col, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 function Project() {
@@ -128,7 +128,7 @@ function Project() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Live <i className="bi bi-globe" style={{ marginLeft: "7px" }}></i>
+          <Button className="text-decoration-none bg-transparent border-0">Live <i className="bi bi-globe" style={{ marginLeft: "7px" }}></i></Button>
         </Link>
 
         {/* Frontend GitHub Button */}
@@ -145,7 +145,7 @@ function Project() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Frontend Git <i className="bi bi-github" style={{ marginLeft: "7px" }}></i>
+         <Button className="text-decoration-none bg-transparent border-0">Frontend Git <i className="bi bi-github" style={{ marginLeft: "7px" }}></i></Button>  
         </Link>
 
         
@@ -162,7 +162,7 @@ function Project() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Backend Git <i className="bi bi-github" style={{ marginLeft: "7px" }}></i>
+         <Button className="text-decoration-none bg-transparent border-0">Backend Git <i className="bi bi-github" style={{ marginLeft: "7px" }}></i></Button> 
         </Link>
       </div>
     </div>
@@ -254,7 +254,7 @@ function Project() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Live <i className="bi bi-globe" style={{ marginLeft: "7px" }}></i>
+                  <Button className="text-decoration-none bg-transparent border-0">Live <i className="bi bi-globe" style={{ marginLeft: "7px" }}></i></Button>
                 </Link>
 
             
@@ -271,7 +271,7 @@ function Project() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Git <i className="bi bi-github" style={{ marginLeft: "7px" }}></i>
+                 <Button className="text-decoration-none bg-transparent border-0">Git <i className="bi bi-github" style={{ marginLeft: "7px" }}></i></Button> 
                 </Link>
               </div>
             </div>
@@ -358,7 +358,7 @@ function Project() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Live <i className="bi bi-globe" style={{ marginLeft: "7px" }}></i>
+                  <Button className="text-decoration-none bg-transparent border-0">Live <i className="bi bi-globe" style={{ marginLeft: "7px" }}></i></Button>
                 </Link>
 
                 {/* Git Button */}
@@ -375,7 +375,7 @@ function Project() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Git <i className="bi bi-github" style={{ marginLeft: "7px" }}></i>
+                  <Button className="text-decoration-none bg-transparent border-0">Git <i className="bi bi-github" style={{ marginLeft: "7px" }}></i></Button>
                 </Link>
               </div>
             </div>
@@ -461,7 +461,7 @@ function Project() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Live <i className="bi bi-globe" style={{ marginLeft: "7px" }}></i>
+                 <Button className="text-decoration-none bg-transparent border-0">Live <i className="bi bi-globe" style={{ marginLeft: "7px" }}></i></Button> 
                 </Link>
 
             
@@ -478,7 +478,7 @@ function Project() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Git <i className="bi bi-github" style={{ marginLeft: "7px" }}></i>
+                 <Button className="text-decoration-none bg-transparent border-0">Git <i className="bi bi-github" style={{ marginLeft: "7px" }}></i></Button> 
                 </Link>
               </div>
             </div>
