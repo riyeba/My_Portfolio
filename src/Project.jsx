@@ -3,7 +3,7 @@
 import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css"; // Import AOS styles
-import { Row, Col, Button } from "react-bootstrap";
+import { Row, Col} from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 function Project() {
@@ -127,7 +127,7 @@ function Project() {
           to="https://frontendksunsudemo.vercel.app"
           
         >
-          <Button className="text-decoration-none bg-transparent border-0">Live <i className="bi bi-globe" style={{ marginLeft: "7px" }}></i></Button>
+          <button className="text-decoration-none bg-transparent border-0 text-white">Live <i className="bi bi-globe" style={{ marginLeft: "7px" }}></i></button>
         </Link>
 
         {/* Frontend GitHub Button */}
@@ -144,7 +144,7 @@ function Project() {
          
           
         >
-         <Button className="text-decoration-none bg-transparent border-0">Frontend Git <i className="bi bi-github" style={{ marginLeft: "7px" }}></i></Button>  
+         <button className="text-decoration-none bg-transparent border-0 text-white">Frontend Git <i className="bi bi-github" style={{ marginLeft: "7px" }}></i></button>  
         </Link>
 
         
@@ -161,7 +161,7 @@ function Project() {
          
           
         >
-         <Button className="text-decoration-none bg-transparent border-0">Backend Git <i className="bi bi-github" style={{ marginLeft: "7px" }}></i></Button> 
+         <button className="text-decoration-none bg-transparent border-0 text-white">Backend Git <i className="bi bi-github" style={{ marginLeft: "7px" }}></i></button> 
         </Link>
       </div>
     </div>
@@ -252,7 +252,7 @@ function Project() {
                   to="https://weather-app-rgni.vercel.app/"
                 
                 >
-                  <Button className="text-decoration-none bg-transparent border-0">Live <i className="bi bi-globe" style={{ marginLeft: "7px" }}></i></Button>
+                  <button className="text-decoration-none bg-transparent border-0 shadow-none text-white">Live <i className="bi bi-globe text-decoration-none shadow-none" style={{ marginLeft: "7px" }}></i></button>
                 </Link>
 
             
@@ -268,7 +268,7 @@ function Project() {
                   to="https://github.com/riyeba/weather_app.git"
                 
                 >
-                 <Button className="text-decoration-none bg-transparent border-0">Git <i className="bi bi-github" style={{ marginLeft: "7px" }}></i></Button> 
+                 <button className="text-decoration-none bg-transparent border-0 text-white">Git <i className="bi bi-github" style={{ marginLeft: "7px" }}></i></button> 
                 </Link>
               </div>
             </div>
@@ -332,7 +332,7 @@ function Project() {
                 </div>
               </div>
 
-              {/* Button Container */}
+              {/* button Container */}
               <div
                 style={{
                   display: "flex",
@@ -341,7 +341,7 @@ function Project() {
                   marginTop: "20px",
                 }}
               >
-                {/* Live Button */}
+                {/* Live button */}
                 <Link
                   className="w-100 bg-success text-center d-flex justify-content-center align-items-center"
                   style={{
@@ -354,10 +354,10 @@ function Project() {
                   to="https://abiotech-l5dd.vercel.app/"
                 
                 >
-                  <Button className="text-decoration-none bg-transparent border-0">Live <i className="bi bi-globe" style={{ marginLeft: "7px" }}></i></Button>
+                  <button className="text-decoration-none bg-transparent border-0 text-white">Live <i className="bi bi-globe" style={{ marginLeft: "7px" }}></i></button>
                 </Link>
 
-                {/* Git Button */}
+                {/* Git button */}
                 <Link
                   className="w-100 bg-dark text-center d-flex justify-content-center align-items-center"
                   style={{
@@ -370,7 +370,7 @@ function Project() {
                   to="https://github.com/riyeba/ABIOTECH.git"
                 
                 >
-                  <Button className="text-decoration-none bg-transparent border-0">Git <i className="bi bi-github" style={{ marginLeft: "7px" }}></i></Button>
+                  <button className="text-decoration-none bg-transparent border-0 text-white">Git <i className="bi bi-github" style={{ marginLeft: "7px" }}></i></button>
                 </Link>
               </div>
             </div>
@@ -433,7 +433,7 @@ function Project() {
                 </div>
               </div>
 
-              {/* Button Container */}
+              {/* button Container */}
               <div
                 style={{
                   display: "flex",
@@ -442,7 +442,7 @@ function Project() {
                   marginTop: "20px",
                 }}
               >
-                {/* Live Button */}
+                {/* Live button */}
                 <Link
                   className="w-100 bg-success text-center d-flex justify-content-center align-items-center"
                   style={{
@@ -455,7 +455,7 @@ function Project() {
                   to="https://internschool-75fp.vercel.app/"
                 
                 >
-                 <Button className="text-decoration-none bg-transparent border-0">Live <i className="bi bi-globe" style={{ marginLeft: "7px" }}></i></Button> 
+                 <button className="text-decoration-none bg-transparent border-0 text-white">Live <i className="bi bi-globe" style={{ marginLeft: "7px" }}></i></button> 
                 </Link>
 
             
@@ -471,7 +471,7 @@ function Project() {
                   to="https://github.com/riyeba/Internschool.git"
                 
                 >
-                 <Button className="text-decoration-none bg-transparent border-0">Git <i className="bi bi-github" style={{ marginLeft: "7px" }}></i></Button> 
+                 <button className="text-decoration-none bg-transparent border-0 text-white">Git <i className="bi bi-github" style={{ marginLeft: "7px" }}></i></button> 
                 </Link>
               </div>
             </div>
