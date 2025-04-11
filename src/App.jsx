@@ -8,6 +8,8 @@ import Project from "./Project";
 import Contact from "./Contact";
 
 import ScrollT from "./Scrooler";
+import ProjectsPage from "./TwoProject";
+import MachineLearning from "./MachineLearning";
 
 
 
@@ -31,8 +33,10 @@ function MainContent() {
         <Routes >
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutMe />} />
-          <Route path="/project" element={<Project/>} />
+          <Route path="/project" element={<Project/>} /> 
           <Route path="/contact" element={<Contact/>} />
+          <Route path="/twoproject" element={<ProjectsPage/>} /> 
+          <Route path="/mlearning" element={<MachineLearning/>} /> 
         </Routes>
         <Footer/>
       </>

@@ -23,16 +23,16 @@ const Home = () => {
             Taiwo Akinpennu
           </h1>
           <p className="lead mb-3 text-justify" data-aos="zoom-in">
-            As a driven <strong>Full Stack Developer</strong>, I specialize in creating innovative solutions that bring value to businesses,
+            As a driven <strong> Machine Learning Engineer (Computer Vision) and software developer</strong>, I specialize in creating innovative solutions that bring value to businesses,
             organizations, and communities. My focus is on using my expertise to solve problems and drive success through technology.
           </p>
           <div data-aos="zoom-in">
             {/* Buttons for navigating to projects and about sections */}
             <Row className="d-flex justify-content-center">
               <Col xs="auto" className="mb-3 mb-md-0">
-                <Link to="/project">
+                <Link to="/twoproject">
                   <Button variant="success" size="lg" className="me-3">
-                    My Project
+                    My Projects
                   </Button>
                 </Link>
               </Col>
