@@ -44,13 +44,15 @@ function MachineLearning() {
       </div>
 
       {/* Project Section */}
+
+      
       <Row className="justify-content-center g-4">
      
 
         
 
        
-              
+              {/* 1st*/}
 
              <Col xs={12} md={6} lg={5} className="d-flex flex-column align-items-stretch" data-aos="zoom-in">
              <div
@@ -171,27 +173,9 @@ function MachineLearning() {
            </Col>
            
 
+ {/* 2nd*/}
 
-
-
-      
-       
-      </Row>
-
-
-
-
-
-
-      <Row className="justify-content-center g-4">
-     
-
-        
-
-       
-              
-
-             <Col xs={12} md={6} lg={5} className="d-flex flex-column align-items-stretch" data-aos="zoom-in">
+ <Col xs={12} md={6} lg={5} className="d-flex flex-column align-items-stretch" data-aos="zoom-in">
              <div
                className="project-container"
                style={{
@@ -308,14 +292,16 @@ function MachineLearning() {
                </div>
              </div>
            </Col>
-           
-
-
 
 
       
        
       </Row>
+
+      
+
+
+      
     </div>
   );
 }
