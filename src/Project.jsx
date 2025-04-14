@@ -90,7 +90,7 @@ function Project() {
         and delete their accounts.
       </p>
       <div>
-        <h3 style={{ fontWeight: "bold" }}>TOOLS:</h3>
+        <h3 style={{ fontWeight: "bold" }}>Tech Stacks:</h3>
         <div
           style={{
             color: "black",
@@ -214,7 +214,7 @@ function Project() {
                 the next three days.
               </p>
               <div>
-                <h3 style={{ fontWeight: "bold" }}>TOOLS:</h3>
+                <h3 style={{ fontWeight: "bold" }}>Tech Stacks:</h3>
                 <div
                   style={{
                     color: "black",
@@ -316,7 +316,7 @@ function Project() {
                 I developed a website for ABIOTECH NIGERIA LIMITED, a company that specializes in selling plumbing and building materials. The website showcases their products, provides detailed descriptions of each item, and allows customers to browse through different categories of materials. The website also includes a contact feature that makes it easy for customers to reach out to the company for inquiries, orders, or support.
               </p>
               <div>
-                <h3 style={{ fontWeight: "bold" }}>TOOLS:</h3>
+                <h3 style={{ fontWeight: "bold" }}>Tech Stacks:</h3>
                 <div
                   style={{
                     color: "black",
@@ -418,7 +418,7 @@ function Project() {
               I remade a static website for Bill Gates School, located in India, as my first test project during my internship.
               </p>
               <div>
-                <h3 style={{ fontWeight: "bold" }}>TOOLS:</h3>
+                <h3 style={{ fontWeight: "bold" }}>Tech Stacks:</h3>
                 <div
                   style={{
                     color: "black",

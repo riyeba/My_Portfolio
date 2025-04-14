@@ -66,6 +66,21 @@ const About = () => {
 
               <Row className="text-center mt-4 mb-4">
                 {/* Add margin to the top (mt-4) and bottom (mb-4) of the Row */}
+                <Col xs={6} sm={4} md={3} data-aos="zoom-in" className="mb-2">
+                  <Button variant="outline-primary" className="w-100">
+                    Tensorflow
+                  </Button>
+                </Col>
+                <Col xs={6} sm={4} md={3} data-aos="zoom-in" className="mb-2">
+                  <Button variant="outline-primary" className="w-100">
+                    PyTorch
+                  </Button>
+                </Col>
+                <Col xs={6} sm={4} md={3} data-aos="zoom-in" className="mb-2">
+                  <Button variant="outline-primary" className="w-100">
+                    FastApi
+                  </Button>
+                </Col>
 
                 <Col xs={6} sm={4} md={3} data-aos="zoom-in">
                   <Button variant="outline-primary" className="w-100">
