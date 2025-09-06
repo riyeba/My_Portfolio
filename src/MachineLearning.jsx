@@ -1,3 +1,333 @@
+
+
+// import React, { useEffect } from "react";
+// import Aos from "aos";
+// import "aos/dist/aos.css"; // Import AOS styles
+// import { Row, Col} from "react-bootstrap";
+// import { Link } from "react-router-dom";
+
+// function MachineLearning() {
+//   useEffect(() => {
+//     // Initialize AOS animation when the component mounts
+//     Aos.init({ duration: 1000 });
+//   }, []);
+
+//   return (
+//     <div className="container-fluid mt-3 mb-3">
+//       {/* Heading Section */}
+//       <div className="text-center mb-5">
+//         <h1
+//           style={{
+//             fontSize: "3rem", // Large font size for the main heading
+//             fontWeight: "bold", // Bold font weight
+//             color: "#2c3e50", // A dark color for good contrast
+//             textTransform: "uppercase", // Uppercase letters for emphasis
+//             letterSpacing: "2px", // Space between letters
+//             textShadow: "2px 2px 4px rgba(0, 0, 0, 0.2)", // Shadow for the heading text
+//           }}
+//         >
+//           My Projects
+//         </h1>
+//         <p
+//           style={{
+//             fontSize: "1.5rem", 
+//             fontStyle: "italic", 
+//             color: "#7f8c8d", 
+//             fontWeight: "lighter", 
+//             maxWidth: "600px", 
+//             margin: "0 auto", 
+//             textShadow: "1px 1px 3px rgba(0, 0, 0, 0.1)", 
+//           }}
+//         >
+//           <strong>Take A Look At Some of my AI and Computer Vision Projects</strong>
+//         </p>
+//       </div>
+
+//       {/* Project Section */}
+
+      
+//       <Row className="justify-content-center g-4">
+     
+
+        
+
+       
+//               {/* 1st*/}
+
+//              <Col xs={12} md={6} lg={5} className="d-flex flex-column align-items-stretch" data-aos="zoom-in">
+//              <div
+//                className="project-container"
+//                style={{
+//                  boxShadow: "0px 10px 30px rgba(0, 0, 0, 0.2)", 
+//                  borderRadius: "10px", 
+//                  display: "flex",
+//                  flexDirection: "column",
+//                  height: "100%", 
+//                  overflow: "hidden", 
+//                }}
+//              >
+              
+//                <div
+//                  style={{
+//                    padding: "20px",
+//                    backgroundColor: "#fff",
+//                    flex: "1", 
+//                  }}
+//                >
+//                  <h2 style={{ textShadow: "1px 1px 3px rgba(0, 0, 0, 0.1)", marginTop: "0" }}>
+//                    WEAPON DETECTION WITH AUTOMATIC EMAIL ALERT SYSTEM
+//                  </h2>
+//                  <p style={{ textShadow: "1px 1px 3px rgba(0, 0, 0, 0.1)" }}>
+//                 This project is designed to automate weapon detection using advanced computer vision techniques with YOLOv8. By leveraging a cutting-edge object detection model, it can identify weapons in real-time or through post-analysis. The system aims to provide a reliable and efficient solution for security applications that require continuous monitoring. When a weapon is detected, an immediate email alert is triggered, allowing for rapid response to potential threats. This project is ideal for enhancing surveillance in public spaces, transportation hubs, or any environment that demands high security. With easy-to-use scripts for both video and image processing, it offers a flexible and adaptable solution for various security and monitoring scenarios.
+//                  </p>
+
+//                   <img
+//                  src="\images\detected_image.png"
+//                  alt="project"
+//                  className="img-fluid rounded"
+//                  style={{
+//                    width: "100%",
+//                    height: "auto",
+//                    display: "block", 
+//                    borderBottom: "5px solid #ccc", 
+//                    boxShadow: "0px 10px 30px rgba(0, 0, 0, 0.2)", 
+//                    marginBottom: "0", 
+//                  }}
+//                />
+//                 <img
+//                  src="\images\message_receivedd.png"
+//                  alt="project"
+//                  className="img-fluid rounded"
+//                  style={{
+//                    width: "100%",
+//                    height: "auto",
+//                    display: "block", 
+//                    borderBottom: "5px solid #ccc", 
+//                    boxShadow: "0px 10px 30px rgba(0, 0, 0, 0.2)", 
+//                    marginBottom: "0", 
+//                  }}
+//                />
+                 
+           
+//                  {/* Button Container */}
+//                  <div
+//                    style={{
+//                      display: "flex",
+//                      gap: "1rem",
+//                      justifyContent: "center",
+//                      marginTop: "20px",
+//                    }}
+//                  >
+                   
+           
+                   
+//                    <Link
+//                      className="w-100 bg-dark text-center d-flex justify-content-center align-items-center"
+//                      style={{
+//                        fontWeight: "bold",
+//                        color: "white",
+//                        textDecoration: "none",
+//                        padding: "10px",
+//                        boxShadow: "0 4px 10px rgba(0, 0, 0, 0.1)", 
+//                      }}
+//                      to="https://github.com/riyeba/weapon-detection-alert-system"  
+                    
+                     
+//                    >
+//                     <button className="text-decoration-none bg-transparent border-0 text-white"> GITHUB PROJECT LINK <i className="bi bi-github" style={{ marginLeft: "7px" }}></i></button> 
+//                    </Link>
+//                  </div>
+//                </div>
+//              </div>
+//            </Col>
+           
+
+//  {/* 2nd*/}
+
+//   <Col xs={12} md={6} lg={5} className="d-flex flex-column align-items-stretch" data-aos="zoom-in">
+//              <div
+//                className="project-container"
+//                style={{
+//                  boxShadow: "0px 10px 30px rgba(0, 0, 0, 0.2)", 
+//                  borderRadius: "10px", 
+//                  display: "flex",
+//                  flexDirection: "column",
+//                  height: "100%", 
+//                  overflow: "hidden", 
+//                }}
+//              >
+              
+//                <div
+//                  style={{
+//                    padding: "20px",
+//                    backgroundColor: "#fff",
+//                    flex: "1", 
+//                  }}
+//                >
+//                  <h2 style={{ textShadow: "1px 1px 3px rgba(0, 0, 0, 0.1)", marginTop: "0" }}>
+//                    SLEEPING STUDENT MONITORING
+//                  </h2>
+//                  <p style={{ textShadow: "1px 1px 3px rgba(0, 0, 0, 0.1)" }}>
+//                This project focuses on automatically detecting students who are dozing or sleeping in the classroom using MMACTION, an advanced video action recognition framework. It can monitor classroom activity in real-time or analyze recorded footage to identify students showing signs of sleepiness. The system aims to improve classroom supervision by alerting teachers or administrators immediately when a student is detected as dozing, enabling timely intervention. Designed for lecture halls, classrooms, and other learning environments, the project provides an efficient and adaptable solution to help maintain student attention. With ready-to-use scripts for both video and image inputs, it offers a versatile approach for automated monitoring of student engagement.<br/>
+//                The decision is based on the class with the highest probability score. When a sleeping event is detected, the system records the timestamp for further analysis.
+//                  </p>
+
+//                   <img
+//                  src="\images\sleepingImage.jpg"
+                 
+//                  alt="project"
+//                  className="img-fluid rounded"
+//                  style={{
+//                    width: "100%",
+//                    height: "auto",
+//                    display: "block", 
+//                    borderBottom: "5px solid #ccc", 
+//                    boxShadow: "0px 10px 30px rgba(0, 0, 0, 0.2)", 
+//                    marginBottom: "0", 
+//                  }}
+//                />
+//                 <img
+//                  src="\images\Results.PNG"
+//                  alt="project"
+//                  className="img-fluid rounded"
+//                  style={{
+//                    width: "140%",
+//                    height: "auto",
+//                    display: "block", 
+//                    borderBottom: "5px solid #ccc", 
+//                    boxShadow: "0px 10px 30px rgba(0, 0, 0, 0.2)", 
+//                    marginBottom: "0", 
+//                  }}
+//                />
+                 
+           
+//                  {/* Button Container */}
+//                  <div
+//                    style={{
+//                      display: "flex",
+//                      gap: "1rem",
+//                      justifyContent: "center",
+//                      marginTop: "20px",
+//                    }}
+//                  >
+                   
+           
+                   
+//                    <Link
+//                      className="w-100 bg-dark text-center d-flex justify-content-center align-items-center"
+//                      style={{
+//                        fontWeight: "bold",
+//                        color: "white",
+//                        textDecoration: "none",
+//                        padding: "10px",
+//                        boxShadow: "0 4px 10px rgba(0, 0, 0, 0.1)", 
+//                      }}
+//                      to="https://github.com/riyeba/Class-Doze-Detector/tree/main"  
+                    
+                     
+//                    >
+//                     <button className="text-decoration-none bg-transparent border-0 text-white"> GITHUB PROJECT LINK <i className="bi bi-github" style={{ marginLeft: "7px" }}></i></button> 
+//                    </Link>
+//                  </div>
+//                </div>
+//              </div>
+//            </Col>
+
+ 
+
+
+
+
+//    {/* 3rd*/}
+
+//   <Col xs={12} md={6} lg={5} className="d-flex flex-column align-items-stretch" data-aos="zoom-in">
+//              <div
+//                className="project-container"
+//                style={{
+//                  boxShadow: "0px 10px 30px rgba(0, 0, 0, 0.2)", 
+//                  borderRadius: "10px", 
+//                  display: "flex",
+//                  flexDirection: "column",
+//                  height: "100%", 
+//                  overflow: "hidden", 
+//                }}
+//              >
+              
+//                <div
+//                  style={{
+//                    padding: "20px",
+//                    backgroundColor: "#fff",
+//                    flex: "1", 
+//                  }}
+//                >
+//                  <h2 style={{ textShadow: "1px 1px 3px rgba(0, 0, 0, 0.1)", marginTop: "0" }}>
+//                    SAUDI-DATES-FRUIT-VISION
+//                  </h2>
+//                  <p style={{ textShadow: "1px 1px 3px rgba(0, 0, 0, 0.1)" }}>
+//                A Saudi dates fruit classification system that analyzes images to accurately identify nine different varieties of dates. I developed the website, designed the backend API, and created the AI model using TensorFlow. The model is optimized for deployment, ensuring fast and efficient predictions. This project provides an easy-to-use solution for farmers, distributors, and retailers to perform quality control and quickly classify dates. If you find it useful, please leave a star ⭐ on the GitHub repo.
+//                  </p>
+
+                  
+//                 <img
+//                  src="\images\Result_date.png"
+//                  alt="project"
+//                  className="img-fluid rounded"
+//                  style={{
+//                    width: "140%",
+//                    height: "auto",
+//                    display: "block", 
+//                    borderBottom: "5px solid #ccc", 
+//                    boxShadow: "0px 10px 30px rgba(0, 0, 0, 0.2)", 
+//                    marginBottom: "0", 
+//                  }}
+//                />
+                 
+           
+//                  {/* Button Container */}
+//                  <div
+//                    style={{
+//                      display: "flex",
+//                      gap: "1rem",
+//                      justifyContent: "center",
+//                      marginTop: "20px",
+//                    }}
+//                  >
+                   
+           
+                   
+//                    <Link
+//                      className="w-100 bg-dark text-center d-flex justify-content-center align-items-center"
+//                      style={{
+//                        fontWeight: "bold",
+//                        color: "white",
+//                        textDecoration: "none",
+//                        padding: "10px",
+//                        boxShadow: "0 4px 10px rgba(0, 0, 0, 0.1)", 
+//                      }}
+//                      to="https://github.com/riyeba/Saudi-Dates-Fruit-Vision"  
+                    
+                     
+//                    >
+//                     <button className="text-decoration-none bg-transparent border-0 text-white"> GITHUB PROJECT LINK <i className="bi bi-github" style={{ marginLeft: "7px" }}></i></button> 
+//                    </Link>
+//                  </div>
+//                </div>
+//              </div>
+//            </Col>   
+       
+//       </Row>
+
+      
+
+
+      
+//     </div>
+//   );
+// }
+
+// export default MachineLearning;
+
+
 import React, { useEffect, useState } from "react";
 
 const ProjectCard = ({ title, description, images, githubLink, technologies, highlights, index }) => {
@@ -61,20 +391,15 @@ const ProjectCard = ({ title, description, images, githubLink, technologies, hig
         )}
         
         {/* Images */}
-        <div className="space-y-6 mb-6">
+        <div className="space-y-4 mb-6">
           {images.map((image, index) => (
-            <div key={index} className="relative overflow-hidden rounded-lg bg-gray-100 shadow-md">
+            <div key={index} className="relative overflow-hidden rounded-lg bg-gray-100">
               <img
                 src={image.src}
                 alt={image.alt}
-                className="w-full h-auto object-contain transition-transform duration-300 hover:scale-105 bg-white"
+                className="w-full h-auto object-cover transition-transform duration-300 hover:scale-105"
                 loading="lazy"
-                style={{ minHeight: '200px', maxHeight: '400px' }}
               />
-              {/* Image caption */}
-              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-3">
-                <p className="text-white text-sm font-medium">{image.alt}</p>
-              </div>
             </div>
           ))}
         </div>
@@ -154,7 +479,7 @@ function MachineLearning() {
         "Quality control solution for agriculture industry"
       ],
       images: [
-        { src: "/images/Result_date.png", alt: "" }
+        { src: "/images/Result_date.png", alt: "Date classification results" }
       ],
       githubLink: "https://github.com/riyeba/Saudi-Dates-Fruit-Vision"
     }
