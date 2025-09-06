@@ -50,7 +50,7 @@ const Home = () => {
                       // console.log('Navigate to /mlearning');
                       navigate("/mlearning")
                     }}
-                    className="bg-blue-400 hover:bg-green-700 text-white font-semibold py-3 px-6 rounded-lg text-lg mr-3 transition-colors duration-200"
+                    className="bg-purple-500 hover:bg-purple-800 text-white font-semibold py-3 px-6 rounded-lg text-lg mr-3 transition-colors duration-200"
                   >
                     My Projects
                   </button>

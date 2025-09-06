@@ -3,8 +3,8 @@ import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
 import NavBar from "./NavBar";
 import Home from "./Home";
 import Footer from "./Footer";
-import AboutMe from "./AboutMe";
-import Project from "./Project";
+
+// import Project from "./Project";
 import Contact from "./Contact";
 
 import ScrollT from "./Scrooler";
@@ -32,8 +32,8 @@ function MainContent() {
         
         <Routes >
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<AboutMe />} />
-          <Route path="/project" element={<Project/>} /> 
+          {/* <Route path="/about" element={<AboutMe />} /> */}
+          {/* <Route path="/project" element={<Project/>} />  */}
           <Route path="/contact" element={<Contact/>} />
           <Route path="/twoproject" element={<ProjectsPage/>} /> 
           <Route path="/mlearning" element={<MachineLearning/>} /> 
