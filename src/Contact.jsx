@@ -21,7 +21,7 @@ function Contact() {
             <div className="d-flex flex-wrap justify-content-center gap-4 mt-3">
               {/* LinkedIn */}
               <a
-                href="https://www.linkedin.com/in/taiwo-akinpennu-115705195?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" // Replace with your LinkedIn URL
+                href="https://linkedin.com/in/ptaiwo" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social-icon text-decoration-none d-flex align-items-center"
