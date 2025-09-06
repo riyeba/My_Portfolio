@@ -1,67 +1,78 @@
-import React, { useEffect } from "react";
-import Aos from "aos";
-import "aos/dist/aos.css"; // Import AOS styles
-import { Container, Row, Col, Button, Image } from "react-bootstrap"; // Import necessary components from React Bootstrap
-import { Link } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router";
 
 const Home = () => {
+  const [isVisible, setIsVisible] = useState(false);
+
   useEffect(() => {
-    // Initialize AOS on component mount
-    Aos.init({ duration: 1000 }); // You can change the duration as needed
+    // Initialize animation on component mount (replaces AOS)
+    const timer = setTimeout(() => {
+      setIsVisible(true);
+    }, 100);
+
+    return () => clearTimeout(timer);
   }, []);
 
+   const navigate = useNavigate();
+
   return (
-    <Container fluid className="p-5 min-vh-100" style={{ backgroundColor: "#f8f9fa" }}>
+    <div className="w-full p-5 min-h-screen" style={{ backgroundColor: "#f8f9fa" }}>
       {/* Main container with padding and light background */}
 
-      <Row className="align-items-center">
+      <div className="flex items-center min-h-screen">
         {/* Row to center-align the content */}
 
-        <Col xs={12} md={6} className="text-center text-md-start">
-          {/* Left Column for text and buttons */}
-          <h1 className="display-4 font-weight-bold mb-4" data-aos="zoom-in">
-            Taiwo Akinpennu
-          </h1>
-          <p className="lead mb-3 text-justify" data-aos="zoom-in">
-            As a driven <strong> Machine Learning Engineer (Computer Vision) and software developer</strong>, I specialize in creating innovative solutions that bring value to businesses,
-            organizations, and communities. My focus is on using my expertise to solve problems and drive success through technology.
-          </p>
-          <div data-aos="zoom-in">
-            {/* Buttons for navigating to projects and about sections */}
-            <Row className="d-flex justify-content-center">
-              <Col xs="auto" className="mb-3 mb-md-0">
-                <Link to="/twoproject">
-                  <Button variant="success" size="lg" className="me-3">
+        <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+          
+          <div className="text-center md:text-left">
+            {/* Left Column for text and buttons */}
+            <h1 className={`text-4xl md:text-5xl font-bold mb-4 transition-all duration-1000 ${
+              isVisible ? 'scale-100 opacity-100' : 'scale-95 opacity-0'
+            }`}>
+              Taiwo Akinpennu
+            </h1>
+            <p className={`text-lg mb-3 text-justify leading-relaxed transition-all duration-1000 delay-200 ${
+              isVisible ? 'scale-100 opacity-100' : 'scale-95 opacity-0'
+            }`}>
+              I am a Machine Learning and Computer Vision Engineer with over 3 years experience in developing AI solutions for real-time monitoring and recognition systems. Adept at deploying machine learning models and collaborating with cross-functional 
+              teams to deliver cutting-edge AI solution. Eager to leverage expertise in AI engineering to drive 
+              impactful results in any target role. 
+            </p>
+            <div className={`transition-all duration-1000 delay-400 ${
+              isVisible ? 'scale-100 opacity-100' : 'scale-95 opacity-0'
+            }`}>
+              {/* Buttons for navigating to projects and about sections */}
+              <div className="flex justify-center">
+                <div className="mb-3 md:mb-0">
+                  <button 
+                    onClick={() => {
+                      // In your real app, use: navigate('/mlearning') or Link component
+                      // console.log('Navigate to /mlearning');
+                      navigate("/mlearning")
+                    }}
+                    className="bg-blue-400 hover:bg-green-700 text-white font-semibold py-3 px-6 rounded-lg text-lg mr-3 transition-colors duration-200"
+                  >
                     My Projects
-                  </Button>
-                </Link>
-              </Col>
-              <Col xs="auto">
-                <Link to="/about">
-                  <Button variant="dark" size="lg">
-                    About Me
-                  </Button>
-                </Link>
-              </Col>
-            </Row>
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
-        </Col>
 
-        <Col xs={12} md={6} className="d-flex justify-content-center">
-          {/* Right Column for Image */}
-          <img
-            src="/images/Photo.jpg"
-            alt="Taiwo Akinpennu"
-            className="rounded-circle shadow-lg mt-4 img-fluid" // img-fluid ensures the image is responsive
-            data-aos="zoom-in" // Apply zoom-in effect to the image
-            style={{ maxWidth: "300px" }} // Ensures image does not get too large on large screens
-          />
-        </Col>
-      </Row>
-
-
-      
-    </Container>
+          <div className="flex justify-center">
+            {/* Right Column for Image */}
+            <img
+              src="/images/Photo.jpg"
+              alt="Taiwo Akinpennu"
+              className={`rounded-full shadow-lg mt-4 w-full h-auto max-w-xs transition-all duration-1000 delay-600 ${
+                isVisible ? 'scale-100 opacity-100' : 'scale-95 opacity-0'
+              }`}
+              style={{ maxWidth: "300px" }} // Ensures image does not get too large on large screens
+            />
+          </div>
+        </div>
+      </div>
+    </div>
   );
 };
 
