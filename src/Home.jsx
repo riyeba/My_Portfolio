@@ -31,7 +31,7 @@ const Home = () => {
             }`}>
               Taiwo Akinpennu
             </h1>
-            <p className={`text-lg mb-3 text-justify leading-relaxed transition-all duration-1000 delay-200 ${
+            <p className={`text-lg mb-3 leading-relaxed transition-all duration-1000 delay-200 ${
               isVisible ? 'scale-100 opacity-100' : 'scale-95 opacity-0'
             }`}>
               I am a Machine Learning and Computer Vision Engineer with over 3 years experience in developing AI solutions for real-time monitoring and recognition systems. Adept at deploying machine learning models and collaborating with cross-functional 
