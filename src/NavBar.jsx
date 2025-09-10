@@ -49,7 +49,7 @@ const NavBar = () => {
             </Link>
            
             <Link 
-              to="/mlearning"
+              to="/twoproject"
               className="relative text-white hover:text-blue-400 px-4 py-2 rounded-lg font-medium transition-all duration-200 group overflow-hidden no-underline"
               onClick={handleNavItemClick}
             >
@@ -89,7 +89,7 @@ const NavBar = () => {
             </Link>
            
             <Link 
-              to="/mlearning"
+              to="/twoproject"
               className="flex items-center w-full text-left text-white hover:text-blue-400 hover:bg-gray-800/50 px-4 py-3 rounded-lg transition-all duration-200 group text-decoration-none"
               onClick={handleNavItemClick}
             >

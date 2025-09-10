@@ -34,7 +34,7 @@ const Home = () => {
             <p className={`text-lg mb-3 leading-relaxed transition-all duration-1000 delay-200 ${
               isVisible ? 'scale-100 opacity-100' : 'scale-95 opacity-0'
             }`}>
-              I am a Machine Learning and Computer Vision Engineer with over 3 years experience in developing AI solutions for real-time monitoring and recognition systems. Adept at deploying machine learning models and collaborating with cross-functional 
+              I am a frontend developer , Machine Learning and  Computer Vision Engineer with over 3 years experience in developing AI solutions for real-time monitoring and recognition systems. Adept at deploying machine learning models and collaborating with cross-functional 
               teams to deliver cutting-edge AI solution. Eager to leverage expertise in AI engineering to drive 
               impactful results in any target role. 
             </p>
@@ -48,7 +48,7 @@ const Home = () => {
                     onClick={() => {
                       // In your real app, use: navigate('/mlearning') or Link component
                       // console.log('Navigate to /mlearning');
-                      navigate("/mlearning")
+                      navigate("/twoproject")
                     }}
                     className="bg-purple-500 hover:bg-purple-800 text-white font-semibold py-3 px-6 rounded-lg text-lg mr-3 transition-colors duration-200"
                   >

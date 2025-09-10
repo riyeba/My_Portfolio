@@ -115,7 +115,7 @@ function Project() {
         }}
       >
         {/* Live Button */}
-        <Link
+        {/* <Link
           className="w-100 bg-success text-center d-flex justify-content-center align-items-center"
           style={{
             fontWeight: "bold",
@@ -128,7 +128,7 @@ function Project() {
           
         >
           <button className="text-decoration-none bg-transparent border-0 text-white">Live <i className="bi bi-globe" style={{ marginLeft: "7px" }}></i></button>
-        </Link>
+        </Link> */}
 
         {/* Frontend GitHub Button */}
         <Link
