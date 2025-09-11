@@ -45,6 +45,113 @@ function Project() {
 
       {/* Project Section */}
       <Row className="justify-content-center g-4">
+
+
+         {/* First Project */}
+        <Col xs={12} md={6} lg={5} className="d-flex flex-column align-items-stretch" data-aos="zoom-in">
+  <div
+    className="project-container"
+    style={{
+      boxShadow: "0px 10px 30px rgba(0, 0, 0, 0.2)", 
+      borderRadius: "10px", 
+      display: "flex",
+      flexDirection: "column",
+      height: "100%", 
+      overflow: "hidden", 
+    }}
+  >
+    <img
+      src="\images\Learning.PNG"
+      alt="project"
+      className="img-fluid rounded"
+      style={{
+        width: "100%",
+        height: "auto",
+        display: "block", 
+        borderBottom: "5px solid #ccc", 
+        boxShadow: "0px 10px 30px rgba(0, 0, 0, 0.2)", 
+        marginBottom: "0", 
+      }}
+    />
+    <div
+      style={{
+        padding: "20px",
+        backgroundColor: "#fff",
+        flex: "1", 
+      }}
+    >
+      <h2 style={{ textShadow: "1px 1px 3px rgba(0, 0, 0, 0.1)", marginTop: "0" }}>
+        Online Learning Platform (on-going project)
+      </h2>
+      <p style={{ textShadow: "1px 1px 3px rgba(0, 0, 0, 0.1)" }}>
+       Currently developing an online learning platform with dynamically generated landing pages. 
+       The platform enables students to manage their profiles, enroll in courses, and connect with instructors and peers. It also includes
+        email notifications for profile updates, password management, and account recovery
+      </p>
+      {/* <div>
+        <h3 style={{ fontWeight: "bold" }}>Tech Stacks:</h3>
+        <div
+          style={{
+            color: "black",
+            display: "flex",
+            gap: "5px",
+            fontWeight: "bold",
+            textShadow: "1px 1px 3px rgba(0, 0, 0, 0.1)",
+          }}
+        >
+          <p>ReactJS,</p>
+          <p>Django</p>
+        </div>
+      </div> */}
+
+      {/* Button Container */}
+      <div
+        style={{
+          display: "flex",
+          gap: "1rem",
+          justifyContent: "center",
+          marginTop: "20px",
+        }}
+      >
+        {/* Live Button */}
+        <Link
+          className="w-100 bg-success text-center d-flex justify-content-center align-items-center"
+          style={{
+            fontWeight: "bold",
+            color: "white",
+            textDecoration: "none",
+            padding: "10px",
+            boxShadow: "0 4px 10px rgba(0, 0, 0, 0.1)", 
+          }}
+          to="https://dr-ambali-project.vercel.app/ "
+          
+        >
+          <button className="text-decoration-none bg-transparent border-0 text-white">Live <i className="bi bi-globe" style={{ marginLeft: "7px" }}></i></button>
+        </Link>
+
+        {/* Frontend GitHub Button */}
+        <Link
+          className="w-100 bg-dark text-center d-flex justify-content-center align-items-center"
+          style={{
+            fontWeight: "bold",
+            color: "white",
+            textDecoration: "none",
+            padding: "10px",
+            boxShadow: "0 4px 10px rgba(0, 0, 0, 0.1)", 
+          }}
+          to="https://github.com/riyeba/DRAmbali_project"  
+         
+          
+        >
+         <button className="text-decoration-none bg-transparent border-0 text-white">GitHub <i className="bi bi-github" style={{ marginLeft: "7px" }}></i></button>  
+        </Link>
+
+        
+        
+      </div>
+    </div>
+  </div>
+</Col>
         {/* First Project */}
         <Col xs={12} md={6} lg={5} className="d-flex flex-column align-items-stretch" data-aos="zoom-in">
   <div
